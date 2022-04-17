@@ -5,4 +5,4 @@ A method for detection of DoS/DDoS attacks based on an evaluation of the incomin
 Note: IPFIXCol collector used as a producer to send the data for Kafka
 
 - General 
-`detection_ddos.py -iz <input-zookeeper-hostname>:<input-zookeeper-port> -it <input-topic> -oz <output-zookeeper-hostname>:<output-zookeeper-port> -ot <output-topic> -nf <regex for network range>`
+`App.py -iz <input-zookeeper-hostname>:<input-zookeeper-port> -it <input-topic> -oz <output-zookeeper-hostname>:<output-zookeeper-port> -ot <output-topic> -nf <regex for network range>`
